@@ -1,0 +1,27 @@
+// NewPixel.cpp: implementation of the CNewPixel class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Test.h"
+#include "NewPixel.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CNewPixel::CNewPixel()
+{
+
+}
+
+CNewPixel::~CNewPixel()
+{
+
+}
