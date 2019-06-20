@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Test.res" /d "_DEBUG" /d "_AFXDLL" "G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\Test.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\ALine.cpp"
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\Line.cpp"
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\MainFrm.cpp"
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\P2.cpp"
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\RGB.cpp"
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\Test.cpp"
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\TestDoc.cpp"
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\TestView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Test.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\JPKC\source\习题解答\第三章习题解答\3.9反走样时钟\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Test.pdb" /debug /machine:I386 /out:"Debug/Test.exe" /pdbtype:sept 
+".\Debug\ALine.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\P2.obj"
+".\Debug\RGB.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Test.obj"
+".\Debug\TestDoc.obj"
+".\Debug\TestView.obj"
+".\Debug\Test.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ALine.cpp
+Line.cpp
+MainFrm.cpp
+P2.cpp
+RGB.cpp
+Test.cpp
+TestDoc.cpp
+TestView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
