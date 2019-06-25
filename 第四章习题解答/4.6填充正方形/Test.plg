@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Test.res" /d "_DEBUG" /d "_AFXDLL" "G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\Test.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP420.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\AET.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\Bucket.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\Fill.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\Line.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\MainFrm.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\P2.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\Pi2.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\RGB.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\Test.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\TestDoc.cpp"
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\TestView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP420.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP421.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Test.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\网站\JPKC\source\习题解答\第四章习题解答\4.6填充正方形\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP421.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP422.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Test.pdb" /debug /machine:I386 /out:"Debug/Test.exe" /pdbtype:sept 
+".\Debug\AET.obj"
+".\Debug\Bucket.obj"
+".\Debug\Fill.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\P2.obj"
+".\Debug\Pi2.obj"
+".\Debug\RGB.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Test.obj"
+".\Debug\TestDoc.obj"
+".\Debug\TestView.obj"
+".\Debug\Test.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP422.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AET.cpp
+Bucket.cpp
+Fill.cpp
+Line.cpp
+MainFrm.cpp
+P2.cpp
+Pi2.cpp
+RGB.cpp
+Test.cpp
+TestDoc.cpp
+TestView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
