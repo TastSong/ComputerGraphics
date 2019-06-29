@@ -1,0 +1,27 @@
+// Point2D.cpp: implementation of the Point2D class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Test.h"
+#include "Point2D.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+Point2D::Point2D()
+{
+
+}
+
+Point2D::~Point2D()
+{
+
+}
