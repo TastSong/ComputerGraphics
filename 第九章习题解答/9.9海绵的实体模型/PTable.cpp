@@ -1,0 +1,28 @@
+// PTable.cpp: implementation of the PTable class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Test.h"
+#include "PTable.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+PTable::PTable()
+{
+	flag=1;//1表示有效点
+
+}
+
+PTable::~PTable()
+{
+
+}
